@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Case Taintor"]
   spec.email         = ["casetaintor@gmail.com"]
   spec.summary       = %q{Adds a rails initializer to make it easier to catch thread-safety issues in your code.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ctaintor/rails_disable_dependency_loading"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
