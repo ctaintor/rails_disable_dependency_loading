@@ -1,0 +1,2 @@
+require "rails_disable_dependency_loading/railtie"
+require "rails_disable_dependency_loading/version"
