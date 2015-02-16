@@ -32,6 +32,11 @@ have your dependencies loaded during initialization. You can fix that by explici
 a file that is loaded during initialization, or you can add directories to the `eager_load_paths` configuration - it is
 probably a good idea to read [this issue](https://github.com/rails/rails/issues/13142) to understand more.
 
+It is highly likely that including this gem will cause your servive to break,
+so you should test thoroughly after including the gem. After fixing all the issues,
+you will be able to sleep better at night knowing that your users aren't
+experiencing random, hard-to-reproduce bugs in your code.
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/rails_disable_dependency_loading/fork )
